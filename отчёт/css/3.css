@@ -1,0 +1,40 @@
+#pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#pictures > a > img{
+    height: 120px;
+    border-radius: 15px;
+    transition: ease .3s;
+}
+
+#pictures > a > img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 5px var(--gray);
+}
+
+#schemes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 50px;
+
+    background-color: white;
+    border-radius: 15px;
+
+    overflow: hidden;
+}
+
+.scheme{
+    text-align: center;
+}
+
+.scheme > img{
+    height: 370px;
+    margin-bottom: 10px;
+}
+
+

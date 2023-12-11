@@ -1,0 +1,27 @@
+:root {
+    --step: #072196;
+    --step-hover: #1ab2ee;
+}
+
+#logo {
+    width: 250px;
+    margin-right: 20px;
+    float: right;
+}
+
+.button {
+    background-color: var(--step);
+}
+
+.button:hover {
+    background-color: var(--step-hover);
+    box-shadow: 0 0 15px var(--step-hover);
+}
+
+.topic {
+    background-color: var(--step);
+}
+
+.current-page {
+    background-color: var(--step-hover);
+}

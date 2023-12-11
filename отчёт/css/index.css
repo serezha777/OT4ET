@@ -1,0 +1,63 @@
+main > article{
+    text-align: center;
+    padding: 0 15em;
+}
+
+/* .wrapper{
+    background-color: white;
+} */
+
+h2{
+    text-align: center;
+
+    margin: 50px 0 0 0;
+    /* margin-bottom: 10px;
+    margin-top: 0; */
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.student{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    text-align: left;
+    margin: 100px 0;
+}
+
+
+.mentors{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    /* margin-left: 100px; */
+
+    text-align: left;
+}
+
+.mentor{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 30px;
+
+    white-space: nowrap;
+    width: 780px;
+    overflow: hidden;
+}
+.mentor > span{
+    text-decoration: underline;
+}
+.mentor > span::before{
+    content: '                                        ';
+}
+.mentor > span::after{
+    content: '                                        ';
+}
+
+.year{
+    margin-top: 150px;
+}
